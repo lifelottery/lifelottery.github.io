@@ -28,7 +28,7 @@
         margin-left: -40px;
 
         li {
-            margin: 40px 60px;
+            margin: 60px;
             display: inline-flex;
 
             &.is-closed {
@@ -50,8 +50,12 @@
                 }
 
                 &.is-closed {
-                    opacity: (.8);
+                    opacity: (.9);
                     margin: 0;
+
+                    .result {
+                        font-size: 1rem;
+                    }
                 }
 
                 h1 {
@@ -72,6 +76,12 @@
                     }
                 }
 
+                .bets-title, .bets-amount{
+                    width: auto;
+                    display: inline-block;
+                }
+
+
                 app-lottery-icon {
                     margin: 6px 0;
                     display: block;
@@ -79,12 +89,4 @@
             }
         }
     }
-}
-
-span {
-    width: 100%;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
 }
