@@ -179,11 +179,10 @@
     }
 
     &__withdraw-error-message {
-        margin: 20px;
-        width: 300px;
+        margin: 10px 20px 40px 0;
+        width: 200px;
         height: 60px;
         display: block;
-        margin-top: 6px;
         overflow: auto;
         font-size: .6rem;
         color: $color-gray-03;
